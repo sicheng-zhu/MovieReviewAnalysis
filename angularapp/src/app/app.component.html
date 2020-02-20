@@ -1,0 +1,14 @@
+<!-- Data interaction portion of front end page. -->
+<div class="text-center">
+  <p class="h3 text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">Movie Review Polarization Analysis</p>
+  <p class="h5 text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">{{explanation}}</p>
+
+  <textarea class="col-11 col-sm-4 col-md-4 col-lg-4 col-xl-4" rows="4" cols="50" type="text" style="font-size: 10pt" placeholder="e.g. Quite possibly the best movie ever made." #reviewInput></textarea>
+
+  <p class="h5 text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">{{rr.review}}</p>
+  <p class="h5 text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">{{rr.classification}}</p>
+
+  <div class="clearfix"></div>
+  <p></p>
+  <button class="btn btn-primary text-center btn-lg" type="submit" (click)="click(reviewInput.value)">Check</button>
+</div>
