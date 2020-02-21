@@ -344,4 +344,4 @@ module.exports = __webpack_require__(/*! E:\Software\JetBrains\PyCharm\MovieRevi
 /***/ })
 
 },[[3,"runtime"]]]);
-//# sourceMappingURL=styles-es2015.js.map
+//# sourceMappingURL=styles.js.map
